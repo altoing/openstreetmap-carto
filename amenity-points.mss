@@ -158,6 +158,26 @@
     point-placement: interior;
   }
 
+  [man_made = 'survey_point'][zoom >= 17]::man_made {
+    point-file: url('symbols/survey_point.png');
+    point-placement: interior;
+  }
+  
+  [man_made = 'communications_tower'][zoom >= 15]::man_made {
+    point-file: url('symbols/communications_tower.png');
+    point-placement: interior;
+  }
+  
+  [man_made = 'communications_tower'][zoom >= 15]::man_made {
+    point-file: url('symbols/communications_tower.png');
+    point-placement: interior;
+  }
+  
+  [man_made = 'chimney'][zoom >= 17]::man_made {
+    point-file: url('symbols/chimney.png');
+    point-placement: interior;
+  }
+  
   [tourism = 'museum'][zoom >= 17]::tourism {
     point-file: url('symbols/museum.p.16.png');
     point-placement: interior;
